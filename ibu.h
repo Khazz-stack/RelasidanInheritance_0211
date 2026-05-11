@@ -14,4 +14,12 @@ public:
     ibu(string pNama) :nama(pNama) {
         cout << "ibu \"" << nama << "\" ada\n";  
     };
+
+    ~ibu(){
+        cout << "ibu \"" << nama << "\" tidak ada\n";
+    };
+
+    //deklarasi prosedur tambahAnak() dan cetakAnak()
+    void tambahAnak(anak pAnak);
+    void cetakAnak();
 };
