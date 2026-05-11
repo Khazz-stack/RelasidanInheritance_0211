@@ -10,4 +10,8 @@ public:
     string nama;
     vector<anak*> daftar_anak;
     
-}
+    //membuat constructor dan destructor pada class ibu
+    ibu(string pNama) :nama(pNama) {
+        cout << "ibu \"" << nama << "\" ada\n";  
+    };
+};
